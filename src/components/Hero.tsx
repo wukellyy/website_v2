@@ -47,7 +47,7 @@ const Hero = () => {
           </div>
 
           {/* Profile Image */}
-          <div className="relative w-64 xs:w-72 md:w-80 lg:w-100 aspect-square rounded-full overflow-hidden flex-shrink-0">
+          <div className="relative w-64 xs:w-72 md:w-80 lg:w-100 aspect-square rounded-full overflow-hidden shrink-0">
             <img
               alt="Picture of Kelly Wu"
               src={ProfileImage}

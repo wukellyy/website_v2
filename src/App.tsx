@@ -1,13 +1,25 @@
-import { Navbar, Hero, About, Skills, Projects } from "./components";
+import {
+  Navbar,
+  Hero,
+  About,
+  Skills,
+  Projects,
+  Contact,
+  Footer,
+} from "./components";
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
+      <main>
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+        <Footer />
+      </main>
     </>
   );
 };

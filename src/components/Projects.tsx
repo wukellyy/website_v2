@@ -1,8 +1,7 @@
-import React from "react";
 import ProjectCard from "./ProjectCard";
 import { PROJECTS } from "../constants";
 
-const Projects: React.FC = () => {
+const Projects = () => {
   return (
     <section id="projects" className="bg-white scroll-mt-24">
       <div className="section-container">
